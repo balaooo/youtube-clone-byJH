@@ -1,0 +1,70 @@
+@media (max-width:999px) {
+  .side-bar{
+    background-color: white;
+    position: fixed;
+    width: 76 px;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    padding-top: 8px;
+    z-index: 200;
+}
+.side-icon-buttons{
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-icon-buttons:hover{
+    background-color: rgb(235, 235, 235);
+}
+.side-icons{
+    height: 26px;
+    margin-bottom: 6px;
+}
+.side-icon-buttons div{
+    font-size: 10px;
+}
+}
+
+
+
+@media (min-width:1000px) {
+  .side-bar{
+    background-color: white;
+    position: fixed;
+    width: 220px;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    padding-top: 8px;
+    z-index: 200;
+}
+
+
+.side-icon-buttons{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left: 24px;
+}
+
+.side-icon-buttons:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.side-icons{
+    height: 24px;
+}
+
+.side-icon-buttons div{
+    font-size: 14px;
+    margin-left: 20px;
+}
+}
+
+
+
